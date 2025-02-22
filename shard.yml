@@ -1,0 +1,13 @@
+name: chatgpt_gateway
+version: 0.1.0
+
+authors:
+  - david <wizzardx@gmail.com>
+
+targets:
+  chatgpt_gateway:
+    main: src/chatgpt_gateway.cr
+
+crystal: '>= 1.15.1'
+
+license: MIT
