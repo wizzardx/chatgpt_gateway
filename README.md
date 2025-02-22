@@ -1,30 +1,62 @@
-# chatgpt_gateway
+# ChatGPT Gateway
 
-A Crystal service that extends ChatGPT's capabilities by providing a secure gateway to execute custom actions. This service runs on DigitalOcean and allows ChatGPT to perform operations beyond its standard web browsing capabilities.
+A Crystal service that extends ChatGPT's capabilities by providing a secure gateway to execute custom actions. Built using Test-Driven Development (TDD), this service runs on DigitalOcean and allows ChatGPT to perform operations beyond its standard web browsing capabilities.
+
+## Features
+
+- Health check endpoint
+- More features coming soon...
 
 ## Installation
 
 1. Install Crystal (>= 1.15.1)
-2. Clone this repository
-3. Run `shards install`
-4. Configure your environment variables (see Configuration section)
-5. Build with `crystal build src/chatgpt_gateway.cr`
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/wizzardx/chatgpt_gateway.git
+   cd chatgpt_gateway
+   ```
+3. Install dependencies:
+   ```bash
+   shards install
+   ```
+4. Build the project:
+   ```bash
+   crystal build src/chatgpt_gateway.cr
+   ```
 
 ## Usage
 
-1. Deploy the built binary to your server
-2. Run the service with proper environment variables set
-3. Configure your ChatGPT custom actions to call the service endpoints
+1. Start the server:
+   ```bash
+   ./chatgpt_gateway
+   ```
+2. Test the health endpoint:
+   ```bash
+   curl http://localhost:3000/health
+   ```
 
-See API documentation for available endpoints and actions (coming soon).
+More documentation coming soon as features are developed.
 
 ## Development
 
-1. Install development dependencies: `shards install`
-2. Run tests: `crystal spec`
-3. Start development server: `crystal run src/chatgpt_gateway.cr`
+This project follows Test-Driven Development practices. To get started with development:
 
-For local development, you can use the included scripts in the `utils/` directory:
+1. Install development dependencies:
+   ```bash
+   shards install
+   ```
+2. Run the test suite:
+   ```bash
+   crystal spec
+   ```
+3. Start development server:
+   ```bash
+   crystal run src/chatgpt_gateway.cr
+   ```
+
+### Development Tools
+
+The `utils/` directory contains helpful development scripts:
 - `run.sh` - Builds and deploys the service
 - `shellcheck.sh` - Checks shell scripts for issues
 - `meta-run.sh` - Creates development snapshots
@@ -39,4 +71,8 @@ For local development, you can use the included scripts in the `utils/` director
 
 ## Contributors
 
-- [david](https://github.com/wizzardx) - creator and maintainer
+- [David Purdy](https://github.com/wizzardx) - creator and maintainer
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details
