@@ -3,3 +3,8 @@
 /bin/
 /.shards/
 *.dwarf
+.aider*
+outputs/
+/chatgpt_gateway
+run.sh_output.md
+repomix-output.xml

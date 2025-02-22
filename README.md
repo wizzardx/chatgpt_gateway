@@ -1,18 +1,33 @@
 # chatgpt_gateway
 
-TODO: Write a description here
+A Crystal service that extends ChatGPT's capabilities by providing a secure gateway to execute custom actions. This service runs on DigitalOcean and allows ChatGPT to perform operations beyond its standard web browsing capabilities.
 
 ## Installation
 
-TODO: Write installation instructions here
+1. Install Crystal (>= 1.15.1)
+2. Clone this repository
+3. Run `shards install`
+4. Configure your environment variables (see Configuration section)
+5. Build with `crystal build src/chatgpt_gateway.cr`
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Deploy the built binary to your server
+2. Run the service with proper environment variables set
+3. Configure your ChatGPT custom actions to call the service endpoints
+
+See API documentation for available endpoints and actions (coming soon).
 
 ## Development
 
-TODO: Write development instructions here
+1. Install development dependencies: `shards install`
+2. Run tests: `crystal spec`
+3. Start development server: `crystal run src/chatgpt_gateway.cr`
+
+For local development, you can use the included scripts in the `utils/` directory:
+- `run.sh` - Builds and deploys the service
+- `shellcheck.sh` - Checks shell scripts for issues
+- `meta-run.sh` - Creates development snapshots
 
 ## Contributing
 

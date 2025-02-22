@@ -1,0 +1,30 @@
+{
+  "output": {
+    "filePath": "repomix-output.xml",
+    "style": "xml",
+    "parsableStyle": false,
+    "fileSummary": true,
+    "directoryStructure": true,
+    "removeComments": false,
+    "removeEmptyLines": false,
+    "compress": false,
+    "topFilesLength": 5,
+    "showLineNumbers": false,
+    "copyToClipboard": false,
+    "headerText": "Custom header text",
+    "instructionFilePath": "repomix-instruction.md",
+    "includeEmptyDirectories": false
+  },
+  "include": [],
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultPatterns": true,
+    "customPatterns": []
+  },
+  "security": {
+    "enableSecurityCheck": true
+  },
+  "tokenCount": {
+    "encoding": "o200k_base"
+  }
+}
