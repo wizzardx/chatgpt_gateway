@@ -3,11 +3,11 @@
 ## Phase 1: Initial Setup
 - [x] Create basic Crystal project structure
 - [x] Set up basic deployment script
+- [x] Create basic health check endpoint
 - [ ] Choose and implement web framework
   - [ ] Research options (Kemal vs Lucky vs Spider-Gazelle)
   - [ ] Implement basic framework
   - [ ] Set up development environment
-- [ ] Create basic health check endpoint
 - [ ] Set up proper logging
 
 ## Phase 2: Core Architecture
@@ -25,6 +25,9 @@
   - [ ] Error reporting
 
 ## Phase 3: Basic Features
+- [ ] Enhance health check endpoint
+  - [ ] Add real system health metrics
+  - [ ] Add configurable thresholds
 - [ ] Implement first custom action handler
   - [ ] Create action framework
   - [ ] Implement test action
@@ -70,4 +73,4 @@
 - [ ] Regular security updates
 - [ ] Performance optimization
 - [ ] Documentation updates
-- [ ] User feedback implementation 
+- [ ] User feedback implementation
