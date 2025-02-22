@@ -31,7 +31,7 @@ For local development, you can use the included scripts in the `utils/` director
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/chatgpt_gateway/fork>)
+1. Fork it (<https://github.com/wizzardx/chatgpt_gateway/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -39,4 +39,4 @@ For local development, you can use the included scripts in the `utils/` director
 
 ## Contributors
 
-- [david](https://github.com/your-github-user) - creator and maintainer
+- [david](https://github.com/wizzardx) - creator and maintainer
